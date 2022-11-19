@@ -1,16 +1,16 @@
 import "./styles/main.css";
-import photo1 from "/amico.svg";
-import logo1 from "/turma-gti.svg";
-import logo2 from "/Logo-Fapam.svg";
-import logo3 from "/Logo-Giga-Minas.svg";
-import logo4 from "/logo-white1.svg";
-import vector from "/Vector.svg";
-import vector2 from "/Vector2.svg";
-import vector3 from "/Vector3.svg";
-import cookies from "/cookies.svg";
-import icon1 from "/icon1.svg";
-import icon2 from "/icon2.svg";
-import icon3 from "/icon3.svg";
+import photo1 from "./assets/amico.svg";
+import logo1 from "./assets/turma-gti.svg";
+import logo2 from "./assets/Logo-Fapam.svg";
+import logo3 from "./assets/Logo-Giga-Minas.svg";
+import logo4 from "./assets/logo-white1.svg";
+import vector from "./assets/Vector.svg";
+import vector2 from "./assets/Vector2.svg";
+import vector3 from "./assets/Vector3.svg";
+import cookies from "./assets/cookies.svg";
+import icon1 from "./assets/icon1.svg";
+import icon2 from "./assets/icon2.svg";
+import icon3 from "./assets/icon3.svg";
 
 function App() {
   return (

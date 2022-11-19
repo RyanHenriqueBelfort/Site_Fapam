@@ -6,13 +6,14 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        background1: "url('./public/background1.png')",
+        background1: "url('/background1.png')",
       },
       colors: {
         projeto: {
           blue: '#599DD9',
           black: '#0E0E0E',
           gray: '#676767',
+          gray50: '#181818',
         },
       },
       height: {

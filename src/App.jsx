@@ -156,7 +156,7 @@ function App() {
               </div>
             </div>
             <div className="flex border-projeto-gray border rounded-lg lg:py-6 py-2 lg:px-5 px-2 mt-7">
-              <img src={icon2} alt="" className="lg:mr-9 mr-2" />
+              <img src={icon2} alt="" className="lg:mr-9 mr-2 rounded-full" />
               <div className="">
                 <h3 className="lg:text-lg text-sm font-bold">
                   Você sabia que ao deixar o carregador na tomada sem um celular
@@ -171,7 +171,7 @@ function App() {
             <div className="flex border-projeto-gray border rounded-lg lg:py-6 py-2 lg:px-5 px-2 mt-7">
               <img src={icon3} alt="" className="lg:mr-9 mr-2" />
               <div className="">
-                <h3 className="lg:text-lg text-sm font-bold">
+                <h3 className="lg:text-lg text-sm font-bold ">
                   Você sabia que são descartados mais de 20 milhões de HDs de
                   forma errada?
                 </h3>

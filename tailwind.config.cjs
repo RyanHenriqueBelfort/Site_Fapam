@@ -12,6 +12,7 @@ module.exports = {
         projeto: {
           blue: '#599DD9',
           black: '#0E0E0E',
+          gray: '#676767',
         },
       },
       height: {

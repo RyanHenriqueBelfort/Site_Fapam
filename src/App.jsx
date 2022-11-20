@@ -13,6 +13,7 @@ import icon2 from "./assets/icon2.svg";
 import icon3 from "./assets/icon3.svg";
 import correct from "./assets/correct.svg";
 import wrong from "./assets/wrong.svg";
+import seguranca from "./assets/seguranca.svg";
 
 function App() {
   return (
@@ -187,8 +188,8 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="h-[1065px] lg:w-3/5 mt-48">
-          <div className="bg-projeto-blue lg:px-32 px-10 lg:py-10 py-5 rounded-lg text-center">
+        <div className="lg:w-3/5 mt-48">
+          <div className="bg-projeto-blue lg:px-32 px-5 lg:py-10 py-2 rounded-lg text-center">
             <h3 className="lg:text-2xl ">VOCÊ SABIA QUE É UM</h3>
             <h1 className="font-bold lg:text-4xl text-2xl mt-1">
               LICENCIAMENTO DE{" "}
@@ -270,7 +271,7 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="bg-projeto-blue lg:px-32 px-10 lg:py-10 py-5 rounded-lg">
+          <div className="bg-projeto-blue lg:px-32 px-5 lg:py-10 py-2 rounded-lg">
             <h3 className="text-2xl font-bold text-center">IMPORTANTE</h3>
             <p className="mt-3 text">
               A prática da pirataria é considerada crime. Cometido tanto por
@@ -279,6 +280,87 @@ function App() {
               está sujeito a ser incriminado legalmente pelo uso de um software
               pirata.
             </p>
+          </div>
+        </div>
+        <div className="lg:w-3/5 mt-56">
+          <h1 className="lg:text-4xl text-3xl font-semibold text-center">
+            SEGURANÇA DA <span className="text-projeto-blue">INFORMAÇÃO</span>
+          </h1>
+          <div className="lg:flex lg:mt-32 mt-16 justify-between">
+            <div className="p-10 lg:p-0">
+              <h3 className="text-2xl text-center lg:text-left">SENHAS</h3>
+              <p className="mt-6">
+                É evidente que, cada vez mais, temos contas registradas na
+                internet tais como sites, apps, jogos etc… <br />
+                <br />
+                E é de suma importância termos uma boa senha para nossos logins.
+                Aqui vão algumas dicas.
+                <br />
+                <br />
+                Alguns sites, apps dentre outros, permitem a autenticação de
+                dois fatores que é: Você só pode logar, trocar senha, trocar
+                email se você permitir de algum dispositivo tornando mais
+                seguro.
+              </p>
+            </div>
+            <img src={seguranca} alt="" className="lg:w-2/5 lg:ml-32" />
+          </div>
+        </div>
+        <div className="bg-projeto-gray50 lg:flex justify-between p-14 lg:w-3/5 mt-28 rounded-lg">
+          <div className="mt-2 lg:w-2/4">
+            <h1 className="text-xl text-center">
+              ESTRATÉGIAS PARA SE
+              <span className="text-projeto-blue"> CRIAR UMA SENHA FORTE</span>
+            </h1>
+            <div className="mt-16">
+              <div className="flex items-center">
+                <img src={correct} alt="" className="w-12" />
+                <span className="lg:ml-5 ml-2 lg:text-xl text-sm font-medium">
+                  No mínimo 8 caracteres
+                </span>
+              </div>
+              <div className="flex items-center mt-6">
+                <img src={correct} alt="" className="w-12" />
+                <span className="lg:ml-5 ml-2 lg:text-xl text-sm font-medium">
+                  Use letras maiúsculas e minúsculas, números e, pelo menos, um
+                  caracter especial
+                </span>
+              </div>
+              <div className="flex items-center mt-6">
+                <img src={correct} alt="" className="w-12" />
+                <span className="lg:ml-5 ml-2 lg:text-xl text-sm font-medium">
+                  Invente uma palavra sem significado, mas que seja sonora e
+                  fácil de lembrar
+                </span>
+              </div>
+            </div>
+          </div>
+          <div className="border-2 border-projeto-gray h-auto lg:mt-0 mt-10"></div>
+          <div className="mt-2 ml-6">
+            <h1 className="text-xl text-center">
+              <span className="text-projeto-blue">O QUE NÃO FAZER </span>
+              AO SE CRIAR UMA SENHA
+            </h1>
+            <div className="mt-16">
+              <div className="flex items-center">
+                <img src={correct} alt="" className="w-12" />
+                <span className="lg:ml-5 ml-2 lg:text-xl text-sm font-medium">
+                  Não use o mesmo nome da sua conta
+                </span>
+              </div>
+              <div className="flex items-center mt-6">
+                <img src={correct} alt="" className="w-12" />
+                <span className="lg:ml-5 ml-2 lg:text-xl text-sm font-medium">
+                  Não use nada relacionado a dados pessoais
+                </span>
+              </div>
+              <div className="flex items-center mt-6">
+                <img src={correct} alt="" className="w-12" />
+                <span className="lg:ml-5 ml-2 lg:text-xl text-sm font-medium">
+                  Não use sequências fáceis de serem decifradas
+                </span>
+              </div>
+            </div>
           </div>
         </div>
       </div>

@@ -11,6 +11,8 @@ import cookies from "./assets/cookies.svg";
 import icon1 from "./assets/icon1.svg";
 import icon2 from "./assets/icon2.svg";
 import icon3 from "./assets/icon3.svg";
+import correct from "./assets/correct.svg";
+import wrong from "./assets/wrong.svg";
 
 function App() {
   return (
@@ -140,7 +142,7 @@ function App() {
             </p>
           </div>
           <div className="lg:w-5/6 lg:ml-24 m-4">
-            <div className="flex border-projeto-gray border rounded-lg lg:py-6 py-2 lg:px-5 px-2" >
+            <div className="flex border-projeto-gray border rounded-lg lg:py-6 py-2 lg:px-5 px-2">
               <img src={icon1} alt="" className="lg:mr-9 mr-2" />
               <div className="">
                 <h3 className="lg:text-lg text-sm font-bold">
@@ -183,6 +185,100 @@ function App() {
                 </p>
               </div>
             </div>
+          </div>
+        </div>
+        <div className="h-[1065px] lg:w-3/5 mt-48">
+          <div className="bg-projeto-blue lg:px-32 px-10 lg:py-10 py-5 rounded-lg text-center">
+            <h3 className="lg:text-2xl ">VOCÊ SABIA QUE É UM</h3>
+            <h1 className="font-bold lg:text-4xl text-2xl mt-1">
+              LICENCIAMENTO DE{" "}
+              <span className="text-projeto-black">SOFTWARE</span>
+            </h1>
+            <p className="mt-3 text-sm lg:text-base">
+              Licenciamento de um software é a permissão do fornecedor para a
+              sua utilização. Ela significa que o desenvolvedor reconhece que o
+              software foi adquirido de forma legal, fornecendo o direito de
+              instalar, exibir, acessar e executar o programa.
+            </p>
+          </div>
+          <div className="bg-projeto-gray50 lg:flex justify-between p-14">
+            <div className="mt-2">
+              <h1 className="text-xl text-center">
+                VANTAGENS DE SE USAR UM{" "}
+                <span className="text-projeto-blue">SOFTWARE LICENCIADO</span>
+              </h1>
+              <div className="mt-16">
+                <div className="flex items-center">
+                  <img src={correct} alt="" className="w-12" />
+                  <span className="lg:ml-5 ml-2 lg:text-xl text-sm font-medium">
+                    Garante atualizações periódicas
+                  </span>
+                </div>
+                <div className="flex items-center mt-6">
+                  <img src={correct} alt="" className="w-12" />
+                  <span className="lg:ml-5 ml-2 lg:text-xl text-sm font-medium">
+                    Suporte tecnológico especializado
+                  </span>
+                </div>
+                <div className="flex items-center mt-6">
+                  <img src={correct} alt="" className="w-12" />
+                  <span className="lg:ml-5 ml-2 lg:text-xl text-sm font-medium">
+                    Nível alto de segurança
+                  </span>
+                </div>
+                <div className="flex items-center mt-6">
+                  <img src={correct} alt="" className="w-12" />
+                  <span className="lg:ml-5 ml-2 lg:text-xl text-sm font-medium">
+                    Inventário e normas de procedimento
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div className="border-2 border-projeto-gray h-auto lg:mt-0 mt-10"></div>
+            <div className="lg:mt-2 mt-10">
+              <h1 className="text-xl text-center">
+                DESVANTAGENS DE SE USAR UM{" "}
+                <span className="text-projeto-blue">
+                  SOFTWARE NÃO LICENCIADO
+                </span>
+              </h1>
+              <div className="mt-16 lg:ml-20">
+                <div className="flex items-center">
+                  <img src={wrong} alt="" className="w-12" />
+                  <span className="lg:ml-5 ml-2 lg:text-xl text-sm font-medium">
+                    Vulnerabilidade dos dados
+                  </span>
+                </div>
+                <div className="flex items-center mt-6">
+                  <img src={wrong} alt="" className="w-12" />
+                  <span className="lg:ml-5 ml-2 lg:text-xl text-sm font-medium">
+                    Falta de acesso ao suporte tecnológico
+                  </span>
+                </div>
+                <div className="flex items-center mt-6">
+                  <img src={wrong} alt="" className="w-12" />
+                  <span className="lg:ml-5 ml-2 lg:text-xl text-sm font-medium">
+                    Perda de credibilidade da empresa
+                  </span>
+                </div>
+                <div className="flex items-center mt-6">
+                  <img src={wrong} alt="" className="w-12" />
+                  <span className="lg:ml-5 ml-2 lg:text-xl text-sm font-medium">
+                    Riscos de malwares (vírus)
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="bg-projeto-blue lg:px-32 px-10 lg:py-10 py-5 rounded-lg">
+            <h3 className="text-2xl font-bold text-center">IMPORTANTE</h3>
+            <p className="mt-3 text">
+              A prática da pirataria é considerada crime. Cometido tanto por
+              quem comercializa e distribui produtos piratas, como também quem
+              faz a compra e uso deles. Assim, uma empresa ou um usuário final
+              está sujeito a ser incriminado legalmente pelo uso de um software
+              pirata.
+            </p>
           </div>
         </div>
       </div>

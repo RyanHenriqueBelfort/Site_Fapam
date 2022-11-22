@@ -14,6 +14,8 @@ import icon3 from "./assets/icon3.svg";
 import correct from "./assets/correct.svg";
 import wrong from "./assets/wrong.svg";
 import seguranca from "./assets/seguranca.svg";
+import hacker from "./assets/hacker.svg";
+import politica from "./assets/politica.svg";
 
 function App() {
   return (
@@ -359,6 +361,227 @@ function App() {
                 <span className="lg:ml-5 ml-2 lg:text-xl text-sm font-medium">
                   Não use sequências fáceis de serem decifradas
                 </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="mt-28 lg:w-3/5">
+          <div className="flex flex-col items-center">
+            <h1 className="text-3xl font-semibold text-center">
+              BOAS PRÁTICAS NO USO DE SENHAS
+            </h1>
+            <p className="text-center mt-4 w-1/2">
+              Não basta apenas criar uma boa senha. É preciso também saber
+              cuidar delas e usá-las corretamente, para que possam cumprir a sua
+              função.
+            </p>
+          </div>
+          <div className="flex justify-center mt-16 lg:items-center items-start flex-col lg:flex-row ml-5 lg:ml-0">
+            <div className="flex border-projeto-gray border rounded-lg lg:py-6 py-2 lg:px-5 px-2 mr-8 items-center lg:w-5/12">
+              <img src={correct} alt="" className="lg:mr-9 mr-2 w-8" />
+              <div>
+                <h3 className="lg:text-lg text-xs ">
+                  Use o bom senso na escolha da senha.
+                </h3>
+              </div>
+            </div>
+            <div className="flex border-projeto-gray border rounded-lg lg:py-6 py-2 lg:px-5 px-2 items-center lg:w-5/12 mt-5 lg:mt-0">
+              <img src={correct} alt="" className="lg:mr-9 mr-2 w-8" />
+              <div>
+                <h3 className="lg:text-lg text-xs">
+                  Não "empreste" a sua senha para ninguém.
+                </h3>
+              </div>
+            </div>
+          </div>
+          <div className="flex justify-center mt-9 lg:items-center items-start flex-col lg:flex-row ml-5 lg:ml-0">
+            <div className="flex border-projeto-gray border rounded-lg lg:py-6 py-2 lg:px-5 px-2 mr-8 items-center lg:w-5/12">
+              <img src={correct} alt="" className="lg:mr-9 mr-2 w-8" />
+              <div>
+                <h3 className="lg:text-lg text-xs ">
+                  Troque a sua senha periodicamente.
+                </h3>
+              </div>
+            </div>
+            <div className="flex border-projeto-gray border rounded-lg lg:py-6 py-2 lg:px-5 px-2 items-center lg:w-5/12 mt-5 lg:mt-0">
+              <img src={correct} alt="" className="lg:mr-9 mr-2 w-8" />
+              <div>
+                <h3 className="lg:text-lg text-xs ">
+                  Nunca use a mesma senha em outras contas.
+                </h3>
+              </div>
+            </div>
+          </div>
+          <div className="flex border-projeto-gray border rounded-lg lg:py-6 py-2 lg:px-5 px-2 items-center mt-9 justify-center w-4/5 lg:w-full ml-5 lg:ml-0">
+            <img src={correct} alt="" className="lg:mr-9 mr-1 w-8" />
+            <div>
+              <h3 className="lg:text-lg text-xs">
+                Mantenha seu sistema atualizado e livre de malware (vírus,
+                spyware dentre outros).
+              </h3>
+            </div>
+          </div>
+          <div className="mt-56">
+            <div className="flex flex-col lg:flex-row justify-center items-center">
+              <div className="lg:w-5/12 lg:mr-24 text-center lg:text-left p-5">
+                <h1 className="text-3xl font-semibold">HACKING</h1>
+                <p className="mt-7 text-sm lg:text-base">
+                  Hacking são as atividades que procuram comprometer
+                  dispositivos digitais como computadores, smartphones, tablets
+                  e até mesmo redes inteiras.
+                  <br />
+                  <br />
+                  Embora o hacking possa não ser sempre malicioso, atualmente,
+                  muitas referências a hacking e hackers os caracterizam como
+                  uma atividade ilegal de criminosos cibernéticos motivados por
+                  ganhos financeiros, protestos, coleta de informações
+                  (espionagem) e, mesmo que seja apenas pela "emoção" do
+                  desafio.
+                </p>
+              </div>
+              <img src={hacker} alt="" className="h-48 lg:h-80 mt-10 lg:mt-0" />
+            </div>
+          </div>
+          <div className="mt-56">
+            <div className="text-center">
+              <h1 className="text-3xl font-semibold">
+                PRINCIPAIS{" "}
+                <span className="text-projeto-blue">MÉTODOS DE INVASÃO</span>{" "}
+              </h1>
+            </div>
+            <div className="grid lg:grid-cols-3 grid-cols-1 gap-12 mt-14">
+              <div className="border-2 border-projeto-gray50 lg:px-7 px-2 lg:py-11 py-2 rounded-lg">
+                <h3 className="text-xl font-medium">PHISHING</h3>
+                <p className="text-base mt-7">
+                  O Phishing ocorre quando uma instituição supostamente legítima
+                  envia um e-mail falso, induzindo a pessoa a abrir e clicar nos
+                  anexos por acreditar que seja algo verídico.
+                  <br />
+                  <br />
+                  Criminosos usam alguns órgãos governamentais para efetuar o
+                  Phishing, como a previdência social ou bancos públicos.
+                </p>
+              </div>
+              <div className="border-2 border-projeto-gray50 lg:px-7 px-2 lg:py-11 py-2 rounded-lg">
+                <h3 className="text-xl font-medium">VISHING</h3>
+                <p className="text-base mt-7 ">
+                  Vishing é uma abreviação de Voice Phishing, uma variação de
+                  golpe aplicada por áudio. Um exemplo de vishing é quando a
+                  pessoa recebe uma ligação para “confirmar” informações. Na
+                  verdade, quem está ligando não tem informação nenhuma ou tem
+                  muito poucas, mas vai, de alguma forma, te convencer a passar
+                  mais dados. Muitas vezes, esse golpe imita a ligação de um
+                  call center de banco, ou instituição financeira, para parecer
+                  mais verdadeiro. Tem golpistas que incluem até mesmo o
+                  barulhinho de espera da ligação.
+                </p>
+              </div>
+              <div className="border-2 border-projeto-gray50 lg:px-7 px-2 lg:py-11 py-2 rounded-lg">
+                <h3 className="text-xl font-medium">SMISHING</h3>
+                <p className="text-base mt-7">
+                  Smishing é outra variação de golpe feita de forma bem
+                  específica: por SMS daí o nome: SMS Phishing.
+                  <br />
+                  <br />O golpe comum é enviar um SMS com uma promoção
+                  imperdível, ou oferta de crédito mas, que te dá um link
+                  malicioso ou pede informações que o fraudador vai usar depois.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="mt-56">
+            <div className="flex flex-col-reverse lg:flex-row justify-between items-center">
+              <img src={politica} alt="" className="lg:w-5/12 w-10/12 mr-14" />
+              <div>
+                <h1 className="text-3xl font-semibold text-center lg:text-left">
+                  POLÍTICAS DE{" "}
+                  <span className="text-projeto-blue">PROTEÇÃO</span>
+                </h1>
+                <p className="text-sm lg:text-base p-4 lg:p-0">
+                  Todas essas variações de ataques induzem você a usar um canal
+                  de comunicação que parece ser o da empresa, mas é do
+                  fraudador. <br />
+                  <br />
+                  Adianta prestar atenção, evitar clicar em links ou só acessar
+                  páginas com aquele cadeado de segurança ao lado do nome? Olha,
+                  até adianta, mas não se iluda: os fraudadores conseguem
+                  enganar isso também. <br />
+                  <br />A forma efetiva de defesa é controlar o canal de
+                  comunicação. Se você controla o canal, o fraudador não tem
+                  como induzir nada. E como fazer isso? Bem, checando o canal
+                  que você está usando.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="mt-48">
+            <div className="bg-projeto-blue rounded-lg lg:p-24 p-5">
+              <div>
+                <h1 className="lg:text-3xl text-xl font-bold text-center lg:text-left">
+                  DICAS DE <span className="text-projeto-black">SEGURANÇA</span>
+                </h1>
+                <p className="mt-6">
+                  <span className="text-3xl font-bold">.</span>{" "}
+                  <span className="font-semibold">
+                    {" "}
+                    Recebeu um e-mail do seu banco pedindo alguma ação?
+                  </span>
+                  <br />
+                  <span className="ml-3 text-sm lg:text-base">
+                    Abra uma nova aba e acesse direto o site do seu banco, ou
+                    abra o app do seu banco para procurar aquela informação,
+                    mensagem ou entrar em contato com o atendimento.{" "}
+                  </span>
+                  <br />
+                  <br />
+                  <span className="text-3xl font-bold">.</span>{" "}
+                  <span className="font-semibold">
+                    {" "}
+                    Viu um anúncio nas redes sociais falando de uma promoção de
+                    empréstimo?
+                  </span>
+                  <br />
+                  <span className="ml-3 text-sm lg:text-base">
+                    Acesse o site da instituição em uma nova aba do navegador e
+                    confirme que a promoção existe por lá.
+                  </span>
+                  <br />
+                  <br />
+                  <span className="text-3xl font-bold">.</span>{" "}
+                  <span className="font-semibold">
+                    {" "}
+                    Recebeu uma ligação do banco oferecendo um produto ou
+                    pedindo alguma informação, por exemplo?
+                  </span>
+                  <br />
+                  <span className="ml-3 text-sm lg:text-base">
+                    Agradeça, desligue e ligue para o número público fornecido
+                    pelo seu banco – jamais ligue para para o número fornecido
+                    pela pessoa na ligação, ok?
+                  </span>
+                  <br />
+                  <br />
+                  <span className="text-3xl font-bold">.</span>{" "}
+                  <span className="font-semibold">
+                    {" "}
+                    Recebeu um SMS oferecendo promoção ou desconto?
+                  </span>
+                  <br />
+                  <span className="ml-3 text-sm lg:text-base">
+                    Acesse o site oficial da loja ou instituição que
+                    supostamente enviou a comunicação e procure um telefone para
+                    contato.
+                  </span>
+                  <br />
+                  <br />
+                  <br />
+
+                  As instituições financeiras têm uma série de barreiras e
+                  camadas de proteção – mas é também importante alertar as
+                  pessoas sobre o phishing, afinal, nesse tipo de golpe, os
+                  criminosos contornam a maioria das barreiras, pois possuem as
+                  senhas do usuário.
+                </p>
               </div>
             </div>
           </div>

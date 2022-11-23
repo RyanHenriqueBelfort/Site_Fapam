@@ -32,7 +32,7 @@ function App() {
         <div className="sm:flex">
           <div className="max-w-xl">
             <h1 className="font-bold lg:text-7xl text-3xl">
-              CARTILHAS DE BOAS{" "}
+              CARTILHA DE BOAS{" "}
               <span className="text-projeto-blue">PRÁTICAS DE TI</span>
             </h1>
             <p className="mt-5 max-w-lg text-lg">
@@ -599,7 +599,7 @@ function App() {
                 <h1 className="text-3xl font-semibold text-center lg:text-left">
                   VOCÊ SABIA QUE SEU{" "}
                   <span className="text-projeto-blue">
-                    WI-FI PODE ESTAR VULNERÁVEL!?
+                    WI-FI PODE ESTAR VULNERÁVEL?
                   </span>
                 </h1>
                 <p className="mt-9 p-6 lg:p-0">
@@ -613,19 +613,19 @@ function App() {
                 <div className="flex border border-projeto-gray50 rounded-lg lg:p-7 p-4 items-center">
                   <img src={wifi} alt="" className="lg:w-14 w-10" />
                   <span className="lg:ml-7 ml-4 font-medium">
-                    Crie senhas complexas
+                    Crie senhas complexas.
                   </span>
                 </div>
                 <div className="flex border border-projeto-gray50 rounded-lg lg:p-7 p-4 items-center mt-7">
                   <img src={people} alt="" className="lg:w-14 w-10" />
                   <span className="lg:ml-7 ml-4 font-medium">
-                    Crie redes para uso pessoal e outra para visitantes
+                    Crie redes para uso pessoal e outra para visitantes.
                   </span>
                 </div>
                 <div className="flex border border-projeto-gray50 rounded-lg lg:p-7 p-4 items-center mt-7">
                   <img src={noConnection} alt="" className="lg:w-14 w-10" />
                   <span className="lg:ml-7 ml-4 font-medium">
-                    Limite a quantidade de Mbps para visitantes
+                    Limite a quantidade de Mbps para visitantes.
                   </span>
                 </div>
               </div>
@@ -643,13 +643,13 @@ function App() {
                       VOCÊ PODE ESTAR COMPARTILHANDO INFORMAÇÕES COMO:
                     </h1>
                     <span className="mr-2 text-3xl font-semibold">.</span>
-                    Dados pessoais
+                    Dados pessoais.
                     <br />
                     <span className="mr-2  text-3xl font-semibold">.</span>
-                    Localização do seu dispositivo
+                    Localização do seu dispositivo.
                     <br />
                     <span className="mr-2  text-3xl font-semibold">.</span>
-                    Senhas
+                    Senhas.
                   </div>
                   <img src={web} alt="" className="lg:w-5/12 w-8/12" />
                 </div>

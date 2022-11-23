@@ -197,7 +197,7 @@ function App() {
         </div>
         <div className="lg:w-3/5 mt-48">
           <div className="bg-projeto-blue lg:px-32 px-5 lg:py-10 py-2 rounded-lg text-center">
-            <h3 className="lg:text-2xl ">VOCÊ SABIA QUE É UM</h3>
+            <h3 className="lg:text-2xl ">VOCÊ SABE O QUE É </h3>
             <h1 className="font-bold lg:text-4xl text-2xl mt-1">
               LICENCIAMENTO DE{" "}
               <span className="text-projeto-black">SOFTWARE</span>

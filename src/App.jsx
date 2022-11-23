@@ -26,7 +26,7 @@ function App() {
   return (
     <div className="w-screen h-screen text-white">
       <header className="h-12 bg-projeto-blue flex justify-center items-center font-bold text-xs md:text-lg fixed w-screen">
-        BOAS PRÁTICAS DE TI APLICADAS NO SEU DIA A DIA
+        BOAS PRÁTICAS DE TI APLICADA NO SEU DIA A DIA
       </header>
       <div className="h-900 bg-background1 bg-projeto-black flex items-center justify-center p-10">
         <div className="sm:flex">
@@ -36,7 +36,7 @@ function App() {
               <span className="text-projeto-blue">PRÁTICAS DE TI</span>
             </h1>
             <p className="mt-5 max-w-lg text-lg">
-              Cartilha desenvolvida para auxiliar e comunicar a comunica
+              Cartilha desenvolvida para auxiliar e comunicar a comunidade
               acadêmica sobre as boas práticas de TI no dia a dia.
             </p>
             <div className="flex md:gap-14 gap-4 mb-10 md:mb-0 mt-20">
@@ -75,7 +75,7 @@ function App() {
             </p>
           </div>
 
-          <div className="max-w-xs border-dashed border-l-2 border-t-2 border-r-2 md:pl-9 md:pt-9 md:pr-9 mt-2 mb-2 p-2">
+          <div className="max-w-xs lg:border-dashed lg:border-l-2 lg:border-t-2 lg:border-r-2 md:pl-9 md:pt-9 md:pr-9 mt-2 mb-2 lg:p-2">
             <div className="flex">
               <img src={vector2} alt="" className="border-2 p-1 mr-4" />
               <h1 className="font-semibold text-base">DADO PESSOAL SENSÍVEL</h1>
@@ -382,7 +382,7 @@ function App() {
             </p>
           </div>
           <div className="flex justify-center mt-16 lg:items-center items-start flex-col lg:flex-row ml-5 lg:ml-0">
-            <div className="flex border-projeto-gray border rounded-lg lg:py-6 py-2 lg:px-5 px-2 mr-8 items-center lg:w-5/12">
+            <div className="flex border-projeto-gray border rounded-lg lg:py-6 py-2 lg:px-5 px-2 mr-8 items-center lg:w-5/12 w-11/12 ">
               <img src={correct} alt="" className="lg:mr-9 mr-2 w-8" />
               <div>
                 <h3 className="lg:text-lg text-xs ">
@@ -390,7 +390,7 @@ function App() {
                 </h3>
               </div>
             </div>
-            <div className="flex border-projeto-gray border rounded-lg lg:py-6 py-2 lg:px-5 px-2 items-center lg:w-5/12 mt-5 lg:mt-0">
+            <div className="flex border-projeto-gray border rounded-lg lg:py-6 py-2 lg:px-5 px-2 items-center lg:w-5/12 w-11/12 mt-5 lg:mt-0">
               <img src={correct} alt="" className="lg:mr-9 mr-2 w-8" />
               <div>
                 <h3 className="lg:text-lg text-xs">
@@ -400,7 +400,7 @@ function App() {
             </div>
           </div>
           <div className="flex justify-center mt-9 lg:items-center items-start flex-col lg:flex-row ml-5 lg:ml-0">
-            <div className="flex border-projeto-gray border rounded-lg lg:py-6 py-2 lg:px-5 px-2 mr-8 items-center lg:w-5/12">
+            <div className="flex border-projeto-gray border rounded-lg lg:py-6 py-2 lg:px-5 px-2 mr-8 items-center lg:w-5/12 w-11/12">
               <img src={correct} alt="" className="lg:mr-9 mr-2 w-8" />
               <div>
                 <h3 className="lg:text-lg text-xs ">
@@ -408,7 +408,7 @@ function App() {
                 </h3>
               </div>
             </div>
-            <div className="flex border-projeto-gray border rounded-lg lg:py-6 py-2 lg:px-5 px-2 items-center lg:w-5/12 mt-5 lg:mt-0">
+            <div className="flex border-projeto-gray border rounded-lg lg:py-6 py-2 lg:px-5 px-2 items-center lg:w-5/12 w-11/12 mt-5 lg:mt-0">
               <img src={correct} alt="" className="lg:mr-9 mr-2 w-8" />
               <div>
                 <h3 className="lg:text-lg text-xs ">
@@ -417,8 +417,8 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="flex border-projeto-gray border rounded-lg lg:py-6 py-2 lg:px-5 px-2 items-center mt-9 justify-center w-4/5 lg:w-full ml-5 lg:ml-0">
-            <img src={correct} alt="" className="lg:mr-9 mr-1 w-8" />
+          <div className="flex border-projeto-gray border rounded-lg lg:py-6 py-2 lg:px-5 px-2 items-center mt-9 justify-center w-5/6 lg:w-full ml-5 lg:ml-0">
+            <img src={correct} alt="" className="lg:mr-9 mr-2 w-8" />
             <div>
               <h3 className="lg:text-lg text-xs">
                 Mantenha seu sistema atualizado e livre de malware (vírus,
@@ -524,7 +524,7 @@ function App() {
             </div>
           </div>
           <div className="mt-48">
-            <div className="bg-projeto-blue rounded-lg lg:p-24 p-5">
+            <div className="bg-projeto-blue rounded-lg lg:p-24 p-5 m-5 lg:m-5">
               <div>
                 <h1 className="lg:text-3xl text-xl font-bold text-center lg:text-left">
                   DICAS DE <span className="text-projeto-black">SEGURANÇA</span>
@@ -632,7 +632,7 @@ function App() {
             </div>
           </div>
           <div className="mt-36">
-            <div className="bg-projeto-blue rounded-lg lg:pl-14 pt-14 flex justify-center">
+            <div className="bg-projeto-blue rounded-lg lg:pl-14 pt-14 flex justify-center m-5 lg:m-0">
               <div>
                 <h1 className="font-medium lg:text-3xl text-xl text-center pl-5">
                   AO NAVEGAR NA WEB PERCEBA QUE:
@@ -643,7 +643,7 @@ function App() {
                       VOCÊ PODE ESTAR COMPARTILHANDO INFORMAÇÕES COMO:
                     </h1>
                     <span className="mr-2 text-3xl font-semibold">.</span>
-                    Dados Pessoas
+                    Dados pessoais
                     <br />
                     <span className="mr-2  text-3xl font-semibold">.</span>
                     Localização do seu dispositivo
@@ -672,7 +672,7 @@ function App() {
               um alerta informando que o site não é seguro, caso esse alerta não
               for informado como saber se o site é seguro ou não?
             </p>
-            <div className="mt-11 border-2 border-projeto-gray rounded-lg">
+            <div className="mt-11 border-2 border-projeto-gray rounded-lg m-5 pb-5 lg:m-5 lg:pb-5">
               <h1 className="text-center mt-10 font-semibold lg:text-xl text-lg">
                 CONFIRA O DOMÍNIO E A URL DO SITE
               </h1>
@@ -687,8 +687,13 @@ function App() {
                 <img src={url} alt="" className="mt-10 lg:mt-0 lg:w-96 w-60" />
               </div>
             </div>
+            <span className="text-xs flex justify-center m-5 text-center">
+              2022 © FAPAM . All Rights Reserved. CARTILHA DE BOAS PRÁTICAS DE
+              TI
+            </span>
           </div>
         </div>
+        <div></div>
       </div>
     </div>
   );

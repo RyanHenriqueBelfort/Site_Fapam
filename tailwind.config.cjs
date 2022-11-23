@@ -14,6 +14,7 @@ module.exports = {
           black: '#0E0E0E',
           gray: '#676767',
           gray50: '#181818',
+          textDark: '#101011',
         },
       },
       height: {

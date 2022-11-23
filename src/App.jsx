@@ -16,6 +16,11 @@ import wrong from "./assets/wrong.svg";
 import seguranca from "./assets/seguranca.svg";
 import hacker from "./assets/hacker.svg";
 import politica from "./assets/politica.svg";
+import noConnection from "./assets/noConnection.svg";
+import people from "./assets/people.svg";
+import wifi from "./assets/wifi.svg";
+import web from "./assets/web.svg";
+import url from "./assets/url.svg";
 
 function App() {
   return (
@@ -338,7 +343,7 @@ function App() {
             </div>
           </div>
           <div className="border-2 border-projeto-gray h-auto lg:mt-0 mt-10"></div>
-          <div className="mt-2 ml-6">
+          <div className="mt-2 lg:ml-6">
             <h1 className="text-xl text-center">
               <span className="text-projeto-blue">O QUE NÃO FAZER </span>
               AO SE CRIAR UMA SENHA
@@ -439,7 +444,7 @@ function App() {
                   desafio.
                 </p>
               </div>
-              <img src={hacker} alt="" className="h-48 lg:h-80 mt-10 lg:mt-0" />
+              <img src={hacker} alt="" className="h-64 lg:h-80 mt-10 lg:mt-0" />
             </div>
           </div>
           <div className="mt-56">
@@ -491,7 +496,11 @@ function App() {
           </div>
           <div className="mt-56">
             <div className="flex flex-col-reverse lg:flex-row justify-between items-center">
-              <img src={politica} alt="" className="lg:w-5/12 w-10/12 mr-14" />
+              <img
+                src={politica}
+                alt=""
+                className="lg:w-5/12 w-10/12 lg:mr-14"
+              />
               <div>
                 <h1 className="text-3xl font-semibold text-center lg:text-left">
                   POLÍTICAS DE{" "}
@@ -575,13 +584,107 @@ function App() {
                   <br />
                   <br />
                   <br />
-
                   As instituições financeiras têm uma série de barreiras e
                   camadas de proteção – mas é também importante alertar as
                   pessoas sobre o phishing, afinal, nesse tipo de golpe, os
                   criminosos contornam a maioria das barreiras, pois possuem as
                   senhas do usuário.
                 </p>
+              </div>
+            </div>
+          </div>
+          <div className="mt-44">
+            <div className="flex flex-col lg:flex-row items-center justify-between">
+              <div className="lg:w-6/12">
+                <h1 className="text-3xl font-semibold text-center lg:text-left">
+                  VOCÊ SABIA QUE SEU{" "}
+                  <span className="text-projeto-blue">
+                    WI-FI PODE ESTAR VULNERÁVEL!?
+                  </span>
+                </h1>
+                <p className="mt-9 p-6 lg:p-0">
+                  Atente-se em trocar usuário/senha padrão do seu roteador
+                  wireless bem como não compartilhar a senha com outras pessoas,
+                  crie senhas complexas, disponibilize QR code para autenticação
+                  ou se possível crie rede limitada para visitantes.
+                </p>
+              </div>
+              <div className="w-11/12 lg:w-5/12">
+                <div className="flex border border-projeto-gray50 rounded-lg lg:p-7 p-4 items-center">
+                  <img src={wifi} alt="" className="lg:w-14 w-10" />
+                  <span className="lg:ml-7 ml-4 font-medium">
+                    Crie senhas complexas
+                  </span>
+                </div>
+                <div className="flex border border-projeto-gray50 rounded-lg lg:p-7 p-4 items-center mt-7">
+                  <img src={people} alt="" className="lg:w-14 w-10" />
+                  <span className="lg:ml-7 ml-4 font-medium">
+                    Crie redes para uso pessoal e outra para visitantes
+                  </span>
+                </div>
+                <div className="flex border border-projeto-gray50 rounded-lg lg:p-7 p-4 items-center mt-7">
+                  <img src={noConnection} alt="" className="lg:w-14 w-10" />
+                  <span className="lg:ml-7 ml-4 font-medium">
+                    Limite a quantidade de Mbps para visitantes
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="mt-36">
+            <div className="bg-projeto-blue rounded-lg lg:pl-14 pt-14 flex justify-center">
+              <div>
+                <h1 className="font-medium lg:text-3xl text-xl text-center pl-5">
+                  AO NAVEGAR NA WEB PERCEBA QUE:
+                </h1>
+                <div className="flex flex-col lg:flex-row lg:justify-between mt-10 items-center">
+                  <div className="lg:w-5/12 w-10/12">
+                    <h1 className="lg:text-xl text-base mb-4 font-semibold text-center lg:text-left">
+                      VOCÊ PODE ESTAR COMPARTILHANDO INFORMAÇÕES COMO:
+                    </h1>
+                    <span className="mr-2 text-3xl font-semibold">.</span>
+                    Dados Pessoas
+                    <br />
+                    <span className="mr-2  text-3xl font-semibold">.</span>
+                    Localização do seu dispositivo
+                    <br />
+                    <span className="mr-2  text-3xl font-semibold">.</span>
+                    Senhas
+                  </div>
+                  <img src={web} alt="" className="lg:w-5/12 w-8/12" />
+                </div>
+                <div className="mt-24 bg-white lg:mx-14 mx-2 mb-7 text-projeto-textDark lg:px-24 px-4 lg:py-10 py-2 text-center text-lg rounded-lg">
+                  <span className="font-bold">
+                    NAVEGUE SEMPRE EM SITE SEGUROS,
+                  </span>{" "}
+                  EVITE SALVAR SENHAS, E-MAILS, PERMITIR LOCALIZAÇÃO DENTRE
+                  OUTRAS AÇÕES QUE AO NAVEGAR EM UM SITE POSSA TE SOLICITAR.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="mt-44">
+            <h1 className="text-center font-semibold text-2xl">
+              COMO SABER SE O SITE É SEGURO?
+            </h1>
+            <p className="mt-9 text-center">
+              Quando você acessa qualquer site inseguro o próprio navegador faz
+              um alerta informando que o site não é seguro, caso esse alerta não
+              for informado como saber se o site é seguro ou não?
+            </p>
+            <div className="mt-11 border-2 border-projeto-gray rounded-lg">
+              <h1 className="text-center mt-10 font-semibold lg:text-xl text-lg">
+                CONFIRA O DOMÍNIO E A URL DO SITE
+              </h1>
+              <div className="flex flex-col lg:flex-row mt-16 items-center text-center lg:text-left lg:ml-16">
+                <p className="lg:w-2/5 lg:mr-20">
+                  Para que as maquinas possam se comunicar, assim como nós, elas
+                  precisam de uma linguagem padrão, dessa forma as empresas
+                  definiram o HTTP. Mas como as coisas evoluem, existe hoje uma
+                  maneira mais segura dos dispositivos se comunicarem que é
+                  usando o HTTPS. FICA A DICA: SEMPRE CONFIRA O “S” A MAIS.
+                </p>
+                <img src={url} alt="" className="mt-10 lg:mt-0 lg:w-96 w-60" />
               </div>
             </div>
           </div>

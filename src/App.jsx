@@ -36,7 +36,7 @@ function App() {
               <span className="text-projeto-blue">PRÁTICAS DE TI</span>
             </h1>
             <p className="mt-5 max-w-lg text-lg text-justify">
-              Cartilha desenvolvida para auxiliar e comunicar a comunidade
+              Cartilha desenvolvida para auxiliar e instruir a comunidade
               acadêmica sobre as boas práticas de TI no dia a dia.
             </p>
             <div className="flex md:gap-14 gap-4 mb-10 md:mb-0 mt-20">
@@ -78,7 +78,7 @@ function App() {
           <div className="max-w-xs lg:border-dashed lg:border-l-2 lg:border-t-2 lg:border-r-2 md:pl-9 md:pt-9 md:pr-9 mt-5 mb-2 lg:p-2">
             <div className="flex">
               <img src={vector2} alt="" className="border-2 p-1 mr-4" />
-              <h1 className="font-semibold text-base">DADO PESSOAL SENSÍVEL</h1>
+              <h1 className="font-semibold text-base">DADOS PESSOAL SENSÍVEL</h1>
             </div>
             <p className="mt-6 text-justify">
               Dados sobre origem racial ou étnica, opinião política, dados
@@ -89,7 +89,7 @@ function App() {
           <div className="max-w-xs md:p-9 mt-5 lg:mt-0">
             <div className="flex">
               <img src={vector3} alt="" className="border-2 p-1 mr-4" />
-              <h1 className="font-semibold text-lg">DADO ANOMALIZADO</h1>
+              <h1 className="font-semibold text-lg">DADOS ANOMALIZADO</h1>
             </div>
             <p className="mt-6 text-justify">
               São dados que não podem ser identificados, considerando a
@@ -102,7 +102,7 @@ function App() {
         <div className="flex flex-col lg:flex-row lg:w-3/5 mt-36 items-center">
           <div className="lg:w-1/2 p-6 text-center lg:text-left">
             <span className="lg:text-2xl text-lg font-normal ">
-              VOCE SABIA QUE OS
+              VOCÊ SABIA QUE OS
             </span>
             <h1 className="lg:text-5xl text-3xl font-bold mt-3 text-center lg:text-left">
               COOKIES PRESENTES EM SITES{" "}
@@ -132,7 +132,7 @@ function App() {
           Ao concordar com os cookies, os sites conseguem acesso a algumas
           informações, como por exemplo logins e senhas, números de telefones e
           históricos de sites visitados. Ao contrário do que alguns pensam, os
-          cookies não são spam ou vírus, mas apenas informações armazenadas
+          cookies não são spam ou vírus, apenas informações armazenadas
           temporariamente e cabe a você aceitar todos os cookies ou escolher
           apenas cookies específicos necessários para a navegação.
         </div>
@@ -145,7 +145,7 @@ function App() {
             <p className="mt-7 text-justify">
               É um conceito que faz da utilização de recursos no setor de
               Tecnologia e Informação uma forma sustentável — seja nos setores
-              das empresa que desenvolvem, produzem ou comercializam tecnologias
+              das empresas que desenvolvem, produzem ou comercializam tecnologias
               e dispositivos tecnológicos.
             </p>
           </div>
@@ -187,9 +187,8 @@ function App() {
                 </h3>
                 <p className="text-sm text-justify">
                   Esse é um problema que vem afetando negativamente o meio
-                  ambiente nos últimos anos e pode ter vazamento de dados. Uma
-                  forma de resolver isso é o uso de ecopontos a fim de fazer o
-                  descarte consciente.
+                  ambiente nos últimos alem do vazamento de dados. Uma
+                  forma de resolver isso é fazer o descarte consciente.
                 </p>
               </div>
             </div>
@@ -213,7 +212,7 @@ function App() {
             <div className="mt-2">
               <h1 className="text-xl text-center">
                 VANTAGENS DE SE USAR UM{" "}
-                <span className="text-projeto-blue">SOFTWARE LICENCIADO</span>
+                <span className="text-projeto-blue">SOFTWARE LICENCIADO:</span>
               </h1>
               <div className="mt-16">
                 <div className="flex items-center">
@@ -247,32 +246,32 @@ function App() {
               <h1 className="text-xl text-center">
                 DESVANTAGENS DE SE USAR UM{" "}
                 <span className="text-projeto-blue">
-                  SOFTWARE NÃO LICENCIADO
+                  SOFTWARE NÃO LICENCIADO:
                 </span>
               </h1>
               <div className="mt-16 lg:ml-20">
                 <div className="flex items-center">
                   <img src={wrong} alt="" className="w-12" />
                   <span className="lg:ml-5 ml-2 lg:text-xl text-sm font-medium">
-                    Vulnerabilidade dos dados
+                    Vulnerabilidade dos dados.
                   </span>
                 </div>
                 <div className="flex items-center mt-6">
                   <img src={wrong} alt="" className="w-12" />
                   <span className="lg:ml-5 ml-2 lg:text-xl text-sm font-medium">
-                    Falta de acesso ao suporte tecnológico
+                    Falta de acesso ao suporte tecnológico.
                   </span>
                 </div>
                 <div className="flex items-center mt-6">
                   <img src={wrong} alt="" className="w-12" />
                   <span className="lg:ml-5 ml-2 lg:text-xl text-sm font-medium">
-                    Perda de credibilidade da empresa
+                    Perda de credibilidade da empresa.
                   </span>
                 </div>
                 <div className="flex items-center mt-6">
                   <img src={wrong} alt="" className="w-12" />
                   <span className="lg:ml-5 ml-2 lg:text-xl text-sm font-medium">
-                    Riscos de malwares (vírus)
+                    Riscos de malwares (vírus).
                   </span>
                 </div>
               </div>
@@ -300,8 +299,7 @@ function App() {
                 É evidente que, cada vez mais, temos contas registradas na
                 internet tais como sites, apps, jogos etc… <br />
                 <br />
-                E é de suma importância termos uma boa senha para nossos logins.
-                Aqui vão algumas dicas.
+                E é de suma importância termos uma boa senha para nossos logins.  
                 <br />
                 <br />
                 Alguns sites, apps dentre outros, permitem a autenticação de
@@ -313,11 +311,12 @@ function App() {
             <img src={seguranca} alt="" className="lg:w-2/5 lg:ml-32" />
           </div>
         </div>
+        <span className="mt-6">Veja abaixo algumas dicas</span>
         <div className="bg-projeto-gray50 lg:flex justify-between p-14 lg:w-3/5 mt-28 rounded-lg">
           <div className="mt-2 lg:w-2/3">
             <h1 className="text-xl text-center">
               ESTRATÉGIAS PARA SE
-              <span className="text-projeto-blue"> CRIAR UMA SENHA FORTE</span>
+              <span className="text-projeto-blue"> CRIAR UMA SENHA FORTE:</span>
             </h1>
             <div className="mt-16">
               <div className="flex items-center">
@@ -346,7 +345,7 @@ function App() {
           <div className="mt-2 lg:ml-6">
             <h1 className="text-xl text-center">
               <span className="text-projeto-blue">O QUE NÃO FAZER </span>
-              AO SE CRIAR UMA SENHA
+              AO SE CRIAR UMA SENHA:
             </h1>
             <div className="mt-16">
               <div className="flex items-center">
@@ -412,7 +411,7 @@ function App() {
               <img src={correct} alt="" className="lg:mr-9 mr-2 w-8" />
               <div>
                 <h3 className="lg:text-lg text-xs ">
-                  Nunca use a mesma senha em outras contas.
+                  Evite utlizar a mesma senha em outras contas.
                 </h3>
               </div>
             </div>
@@ -536,7 +535,7 @@ function App() {
                     Recebeu um e-mail do seu banco pedindo alguma ação?
                   </span>
                   <br />
-                  <span className="ml-3 text-sm lg:text-base text-justify">
+                  <span className=" text-sm lg:text-base text-justify">
                     Abra uma nova aba e acesse direto o site do seu banco, ou
                     abra o app do seu banco para procurar aquela informação,
                     mensagem ou entrar em contato com o atendimento.{" "}
@@ -550,7 +549,7 @@ function App() {
                     empréstimo?
                   </span>
                   <br />
-                  <span className="ml-3 text-sm lg:text-base text-justify">
+                  <span className="text-sm lg:text-base text-justify">
                     Acesse o site da instituição em uma nova aba do navegador e
                     confirme que a promoção existe por lá.
                   </span>
@@ -563,7 +562,7 @@ function App() {
                     pedindo alguma informação, por exemplo?
                   </span>
                   <br />
-                  <span className="ml-3 text-sm lg:text-base text-justify">
+                  <span className="text-sm lg:text-base text-justify">
                     Agradeça, desligue e ligue para o número público fornecido
                     pelo seu banco – jamais ligue para para o número fornecido
                     pela pessoa na ligação, ok?
@@ -576,7 +575,7 @@ function App() {
                     Recebeu um SMS oferecendo promoção ou desconto?
                   </span>
                   <br />
-                  <span className="ml-3 text-sm lg:text-base text-justify">
+                  <span className="text-sm lg:text-base text-justify">
                     Acesse o site oficial da loja ou instituição que
                     supostamente enviou a comunicação e procure um telefone para
                     contato.
@@ -601,7 +600,7 @@ function App() {
                 <h1 className="lg:text-3xl text-xl font-semibold text-center lg:text-left">
                   VOCÊ SABIA QUE SEU{" "}
                   <span className="text-projeto-blue">
-                    WI-FI PODE ESTARÁVEL?
+                    WI-FI PODE VULNERÁVEL?
                   </span>
                 </h1>
                 <p className="mt-9 p-6 pr-10 lg:p-0 text-justify">
@@ -661,7 +660,7 @@ function App() {
                   </span>{" "}
                   <span className="text-justify">
                     EVITE SALVAR SENHAS, E-MAILS, PERMITIR LOCALIZAÇÃO DENTRE
-                    OUTRAS AÇÕES QUE AO NAVEGAR EM UM SITE POSSA TE SOLICITAR.
+                    OUTRAS AÇÕES QUE AO NAVEGAR EM UM SITE O MESMO POSSA TE SOLICITAR.
                   </span>
                 </div>
               </div>

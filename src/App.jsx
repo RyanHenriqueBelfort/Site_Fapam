@@ -26,7 +26,7 @@ function App() {
   return (
     <div className="w-screen h-screen text-white">
       <header className="h-12 bg-projeto-blue flex justify-center items-center font-bold text-xs md:text-lg fixed w-screen">
-        BOAS PRÁTICAS DE TI APLICADA NO SEU DIA A DIA
+        BOAS PRÁTICAS DE TI APLICADA NO SEU DIA A DIA.
       </header>
       <div className="h-900 bg-background1 bg-projeto-black flex items-center justify-center p-10">
         <div className="sm:flex">
@@ -35,7 +35,7 @@ function App() {
               CARTILHA DE BOAS{" "}
               <span className="text-projeto-blue">PRÁTICAS DE TI</span>
             </h1>
-            <p className="mt-5 max-w-lg text-lg">
+            <p className="mt-5 max-w-lg text-lg text-justify">
               Cartilha desenvolvida para auxiliar e comunicar a comunidade
               acadêmica sobre as boas práticas de TI no dia a dia.
             </p>
@@ -53,11 +53,11 @@ function App() {
       </div>
       <div className="md:h-768 h-1000 bg-projeto-blue flex flex-col items-center justify-center">
         <div className="flex justify-center pl-1 flex-wrap">
-          <h1 className="font-bold text-lg lg:text-4xl md:w-4/12 w-8/12 mb-6">
+          <h1 className="font-bold text-lg lg:text-4xl md:w-4/12 w-8/12 mb-6 text-center">
             CONHEÇA MAIS SOBRE A{" "}
             <span className="text-projeto-black">LGPD E SEUS DADOS</span>
           </h1>
-          <p className="tex-lg max-w-screen-sm text-sm md:text-2xl md:pl-8 pl-4  ">
+          <p className="tex-lg max-w-screen-sm text-sm md:text-2xl md:pl-8 pl-5 pr-5 text-justify ">
             A LGPD, Lei Geral de Proteção de dados entrou em vigência
             recentemente para adequar-se ao tratamento de dados e é composta por
             três tipos de dados, sendo:
@@ -69,29 +69,29 @@ function App() {
               <img src={vector} alt="" className="border-2 p-1 mr-4" />
               <h1 className="font-semibold text-lg">DADOS PESSOAIS</h1>
             </div>
-            <p className="mt-6">
+            <p className="mt-6 text-justify">
               Informações relacionadas a pessoa, seja nome, foto, endereço,
               e-mail, características pessoais, entre outros.
             </p>
           </div>
 
-          <div className="max-w-xs lg:border-dashed lg:border-l-2 lg:border-t-2 lg:border-r-2 md:pl-9 md:pt-9 md:pr-9 mt-2 mb-2 lg:p-2">
+          <div className="max-w-xs lg:border-dashed lg:border-l-2 lg:border-t-2 lg:border-r-2 md:pl-9 md:pt-9 md:pr-9 mt-5 mb-2 lg:p-2">
             <div className="flex">
               <img src={vector2} alt="" className="border-2 p-1 mr-4" />
               <h1 className="font-semibold text-base">DADO PESSOAL SENSÍVEL</h1>
             </div>
-            <p className="mt-6">
+            <p className="mt-6 text-justify">
               Dados sobre origem racial ou étnica, opinião política, dados
               genéticos, biométricos.
             </p>
           </div>
 
-          <div className="max-w-xs md:p-9">
+          <div className="max-w-xs md:p-9 mt-5 lg:mt-0">
             <div className="flex">
               <img src={vector3} alt="" className="border-2 p-1 mr-4" />
               <h1 className="font-semibold text-lg">DADO ANOMALIZADO</h1>
             </div>
-            <p className="mt-6">
+            <p className="mt-6 text-justify">
               São dados que não podem ser identificados, considerando a
               utilização de meios técnicos razoáveis e disponíveis.
             </p>
@@ -111,12 +111,12 @@ function App() {
                 NÃO SÃO BISCOITOS?
               </span>
             </h1>
-            <p className="mt-12 text-sm lg:text-base">
+            <p className="mt-12 text-sm lg:text-base text-justify">
               Tratam-se de arquivos com pequenos fragmentos de dados - como nome
               de um usuário e senha - que são trocados entre o computador de um
               usuário e um servidor Web para identificar usuários específicos e
               melhorar sua experiência de navegação.
-              <p className="mt-6">
+              <p className="mt-6 text-justify">
                 Nos cookies é possível visualizar os termos de Política de
                 Privacidade, Tratamentos de Dados (LGPD), e saber mais sobre o
                 que é coletado de informações dos usuários e como são tratadas
@@ -128,7 +128,7 @@ function App() {
             <img src={cookies} alt="" />
           </div>
         </div>
-        <div className="lg:w-3/5 w-4/5 mt-12 bg-projeto-blue rounded-lg lg:py-8 py-2 lg:px-11 px-2 text-center">
+        <div className="lg:w-3/5 w-4/5 mt-12 bg-projeto-blue rounded-lg lg:py-8 py-2 lg:px-11 px-5 text-justify">
           Ao concordar com os cookies, os sites conseguem acesso a algumas
           informações, como por exemplo logins e senhas, números de telefones e
           históricos de sites visitados. Ao contrário do que alguns pensam, os
@@ -142,7 +142,7 @@ function App() {
               VOCÊ SABE O QUE É{" "}
               <span className="text-projeto-blue">Ti VERDE?</span>
             </h1>
-            <p className="mt-7">
+            <p className="mt-7 text-justify">
               É um conceito que faz da utilização de recursos no setor de
               Tecnologia e Informação uma forma sustentável — seja nos setores
               das empresa que desenvolvem, produzem ou comercializam tecnologias
@@ -157,7 +157,7 @@ function App() {
                   Você sabia que cerca de 10.000 folhas são produzidas por
                   tronco de árvore?
                 </h3>
-                <p className="lg:text-sm text-xs">
+                <p className="lg:text-sm text-xs text-justify">
                   Por esse motivo é muito importante que as pessoas se
                   conscientizem no consumo de papel, trocando a prática de
                   anotações físicas para aplicativo de anotações no computador
@@ -172,7 +172,7 @@ function App() {
                   Você sabia que ao deixar o carregador na tomada sem um celular
                   conectado consome energia?
                 </h3>
-                <p className="text-sm">
+                <p className="text-sm text-justify">
                   O consumo médio é de 0,26 KWh, por esse motivo é muito
                   importante ter atenção ao finalizar a carga do telefone.
                 </p>
@@ -185,7 +185,7 @@ function App() {
                   Você sabia que são descartados mais de 20 milhões de HDs de
                   forma errada?
                 </h3>
-                <p className="text-sm">
+                <p className="text-sm text-justify">
                   Esse é um problema que vem afetando negativamente o meio
                   ambiente nos últimos anos e pode ter vazamento de dados. Uma
                   forma de resolver isso é o uso de ecopontos a fim de fazer o
@@ -202,7 +202,7 @@ function App() {
               LICENCIAMENTO DE{" "}
               <span className="text-projeto-black">SOFTWARE</span>
             </h1>
-            <p className="mt-3 text-sm lg:text-base">
+            <p className="mt-3 text-sm lg:text-base text-justify">
               Licenciamento de um software é a permissão do fornecedor para a
               sua utilização. Ela significa que o desenvolvedor reconhece que o
               software foi adquirido de forma legal, fornecendo o direito de
@@ -219,25 +219,25 @@ function App() {
                 <div className="flex items-center">
                   <img src={correct} alt="" className="w-12" />
                   <span className="lg:ml-5 ml-2 lg:text-xl text-sm font-medium">
-                    Garante atualizações periódicas
+                    Garante atualizações periódicas.
                   </span>
                 </div>
                 <div className="flex items-center mt-6">
                   <img src={correct} alt="" className="w-12" />
                   <span className="lg:ml-5 ml-2 lg:text-xl text-sm font-medium">
-                    Suporte tecnológico especializado
+                    Suporte tecnológico especializado.
                   </span>
                 </div>
                 <div className="flex items-center mt-6">
                   <img src={correct} alt="" className="w-12" />
                   <span className="lg:ml-5 ml-2 lg:text-xl text-sm font-medium">
-                    Nível alto de segurança
+                    Nível alto de segurança.
                   </span>
                 </div>
                 <div className="flex items-center mt-6">
                   <img src={correct} alt="" className="w-12" />
                   <span className="lg:ml-5 ml-2 lg:text-xl text-sm font-medium">
-                    Inventário e normas de procedimento
+                    Inventário e normas de procedimento.
                   </span>
                 </div>
               </div>
@@ -280,7 +280,7 @@ function App() {
           </div>
           <div className="bg-projeto-blue lg:px-32 px-5 lg:py-10 py-2 rounded-lg">
             <h3 className="text-2xl font-bold text-center">IMPORTANTE</h3>
-            <p className="mt-3 text">
+            <p className="mt-3 text text-justify">
               A prática da pirataria é considerada crime. Cometido tanto por
               quem comercializa e distribui produtos piratas, como também quem
               faz a compra e uso deles. Assim, uma empresa ou um usuário final
@@ -293,10 +293,10 @@ function App() {
           <h1 className="lg:text-4xl text-3xl font-semibold text-center">
             SEGURANÇA DA <span className="text-projeto-blue">INFORMAÇÃO</span>
           </h1>
-          <div className="lg:flex lg:mt-32 mt-16 justify-between">
+          <div className="lg:flex lg:mt-32 mt-5 justify-between">
             <div className="p-10 lg:p-0">
               <h3 className="text-2xl text-center lg:text-left">SENHAS</h3>
-              <p className="mt-6">
+              <p className="mt-6 text-justify">
                 É evidente que, cada vez mais, temos contas registradas na
                 internet tais como sites, apps, jogos etc… <br />
                 <br />
@@ -314,7 +314,7 @@ function App() {
           </div>
         </div>
         <div className="bg-projeto-gray50 lg:flex justify-between p-14 lg:w-3/5 mt-28 rounded-lg">
-          <div className="mt-2 lg:w-2/4">
+          <div className="mt-2 lg:w-2/3">
             <h1 className="text-xl text-center">
               ESTRATÉGIAS PARA SE
               <span className="text-projeto-blue"> CRIAR UMA SENHA FORTE</span>
@@ -322,22 +322,22 @@ function App() {
             <div className="mt-16">
               <div className="flex items-center">
                 <img src={correct} alt="" className="w-12" />
-                <span className="lg:ml-5 ml-2 lg:text-xl text-sm font-medium">
-                  No mínimo 8 caracteres
+                <span className="lg:ml-5 ml-2 lg:text-lg text-sm font-medium">
+                  No mínimo 8 caracteres.
                 </span>
               </div>
               <div className="flex items-center mt-6">
                 <img src={correct} alt="" className="w-12" />
-                <span className="lg:ml-5 ml-2 lg:text-xl text-sm font-medium">
+                <span className="lg:ml-5 ml-2 lg:text-lg text-sm font-medium">
                   Use letras maiúsculas e minúsculas, números e, pelo menos, um
-                  caracter especial
+                  caracter especial.
                 </span>
               </div>
               <div className="flex items-center mt-6">
                 <img src={correct} alt="" className="w-12" />
-                <span className="lg:ml-5 ml-2 lg:text-xl text-sm font-medium">
+                <span className="lg:ml-5 ml-2 lg:text-lg text-sm font-medium">
                   Invente uma palavra sem significado, mas que seja sonora e
-                  fácil de lembrar
+                  fácil de lembrar.
                 </span>
               </div>
             </div>
@@ -352,19 +352,19 @@ function App() {
               <div className="flex items-center">
                 <img src={correct} alt="" className="w-12" />
                 <span className="lg:ml-5 ml-2 lg:text-xl text-sm font-medium">
-                  Não use o mesmo nome da sua conta
+                  Não use o mesmo nome da sua conta.
                 </span>
               </div>
               <div className="flex items-center mt-6">
                 <img src={correct} alt="" className="w-12" />
                 <span className="lg:ml-5 ml-2 lg:text-xl text-sm font-medium">
-                  Não use nada relacionado a dados pessoais
+                  Não use nada relacionado a dados pessoais.
                 </span>
               </div>
               <div className="flex items-center mt-6">
                 <img src={correct} alt="" className="w-12" />
                 <span className="lg:ml-5 ml-2 lg:text-xl text-sm font-medium">
-                  Não use sequências fáceis de serem decifradas
+                  Não use sequências fáceis de serem decifradas.
                 </span>
               </div>
             </div>
@@ -372,10 +372,10 @@ function App() {
         </div>
         <div className="mt-28 lg:w-3/5">
           <div className="flex flex-col items-center">
-            <h1 className="text-3xl font-semibold text-center">
+            <h1 className="lg:text-3xl text-2xl font-semibold text-center">
               BOAS PRÁTICAS NO USO DE SENHAS
             </h1>
-            <p className="text-center mt-4 w-1/2">
+            <p className="mt-4 lg:w-1/2 text-justify p-10 lg:p-0">
               Não basta apenas criar uma boa senha. É preciso também saber
               cuidar delas e usá-las corretamente, para que possam cumprir a sua
               função.
@@ -430,7 +430,7 @@ function App() {
             <div className="flex flex-col lg:flex-row justify-center items-center">
               <div className="lg:w-5/12 lg:mr-24 text-center lg:text-left p-5">
                 <h1 className="text-3xl font-semibold">HACKING</h1>
-                <p className="mt-7 text-sm lg:text-base">
+                <p className="mt-7 text-sm lg:text-base text-justify p-5 lg:p-0">
                   Hacking são as atividades que procuram comprometer
                   dispositivos digitais como computadores, smartphones, tablets
                   e até mesmo redes inteiras.
@@ -455,9 +455,9 @@ function App() {
               </h1>
             </div>
             <div className="grid lg:grid-cols-3 grid-cols-1 gap-12 mt-14">
-              <div className="border-2 border-projeto-gray50 lg:px-7 px-2 lg:py-11 py-2 rounded-lg">
+              <div className="border-2 border-projeto-gray50 lg:px-7 px-5 lg:py-11 py-2 rounded-lg">
                 <h3 className="text-xl font-medium">PHISHING</h3>
-                <p className="text-base mt-7">
+                <p className="text-base mt-7 text-justify pr-5 lg:pt-0">
                   O Phishing ocorre quando uma instituição supostamente legítima
                   envia um e-mail falso, induzindo a pessoa a abrir e clicar nos
                   anexos por acreditar que seja algo verídico.
@@ -467,9 +467,9 @@ function App() {
                   Phishing, como a previdência social ou bancos públicos.
                 </p>
               </div>
-              <div className="border-2 border-projeto-gray50 lg:px-7 px-2 lg:py-11 py-2 rounded-lg">
+              <div className="border-2 border-projeto-gray50 lg:px-7 px-5 lg:py-11 py-2 rounded-lg">
                 <h3 className="text-xl font-medium">VISHING</h3>
-                <p className="text-base mt-7 ">
+                <p className="text-base mt-7 text-justify pr-5 lg:pr-0">
                   Vishing é uma abreviação de Voice Phishing, uma variação de
                   golpe aplicada por áudio. Um exemplo de vishing é quando a
                   pessoa recebe uma ligação para “confirmar” informações. Na
@@ -481,9 +481,9 @@ function App() {
                   barulhinho de espera da ligação.
                 </p>
               </div>
-              <div className="border-2 border-projeto-gray50 lg:px-7 px-2 lg:py-11 py-2 rounded-lg">
+              <div className="border-2 border-projeto-gray50 lg:px-7 px-5 lg:py-11 py-2 rounded-lg">
                 <h3 className="text-xl font-medium">SMISHING</h3>
-                <p className="text-base mt-7">
+                <p className="text-base mt-7 text-justify pr-5 lg:pr-0">
                   Smishing é outra variação de golpe feita de forma bem
                   específica: por SMS daí o nome: SMS Phishing.
                   <br />
@@ -502,11 +502,11 @@ function App() {
                 className="lg:w-5/12 w-10/12 lg:mr-14"
               />
               <div>
-                <h1 className="text-3xl font-semibold text-center lg:text-left">
+                <h1 className="lg:text-3xl text-2xl font-semibold text-center lg:text-left">
                   POLÍTICAS DE{" "}
                   <span className="text-projeto-blue">PROTEÇÃO</span>
                 </h1>
-                <p className="text-sm lg:text-base p-4 lg:p-0">
+                <p className="text-sm lg:text-base p-5 pr-10 lg:p-0 text-justify ">
                   Todas essas variações de ataques induzem você a usar um canal
                   de comunicação que parece ser o da empresa, mas é do
                   fraudador. <br />
@@ -536,7 +536,7 @@ function App() {
                     Recebeu um e-mail do seu banco pedindo alguma ação?
                   </span>
                   <br />
-                  <span className="ml-3 text-sm lg:text-base">
+                  <span className="ml-3 text-sm lg:text-base text-justify">
                     Abra uma nova aba e acesse direto o site do seu banco, ou
                     abra o app do seu banco para procurar aquela informação,
                     mensagem ou entrar em contato com o atendimento.{" "}
@@ -544,26 +544,26 @@ function App() {
                   <br />
                   <br />
                   <span className="text-3xl font-bold">.</span>{" "}
-                  <span className="font-semibold">
+                  <span className="font-semibold text-justify">
                     {" "}
                     Viu um anúncio nas redes sociais falando de uma promoção de
                     empréstimo?
                   </span>
                   <br />
-                  <span className="ml-3 text-sm lg:text-base">
+                  <span className="ml-3 text-sm lg:text-base text-justify">
                     Acesse o site da instituição em uma nova aba do navegador e
                     confirme que a promoção existe por lá.
                   </span>
                   <br />
                   <br />
                   <span className="text-3xl font-bold">.</span>{" "}
-                  <span className="font-semibold">
+                  <span className="font-semibold text-justify">
                     {" "}
                     Recebeu uma ligação do banco oferecendo um produto ou
                     pedindo alguma informação, por exemplo?
                   </span>
                   <br />
-                  <span className="ml-3 text-sm lg:text-base">
+                  <span className="ml-3 text-sm lg:text-base text-justify">
                     Agradeça, desligue e ligue para o número público fornecido
                     pelo seu banco – jamais ligue para para o número fornecido
                     pela pessoa na ligação, ok?
@@ -571,12 +571,12 @@ function App() {
                   <br />
                   <br />
                   <span className="text-3xl font-bold">.</span>{" "}
-                  <span className="font-semibold">
+                  <span className="font-semibold text-justify">
                     {" "}
                     Recebeu um SMS oferecendo promoção ou desconto?
                   </span>
                   <br />
-                  <span className="ml-3 text-sm lg:text-base">
+                  <span className="ml-3 text-sm lg:text-base text-justify">
                     Acesse o site oficial da loja ou instituição que
                     supostamente enviou a comunicação e procure um telefone para
                     contato.
@@ -584,11 +584,13 @@ function App() {
                   <br />
                   <br />
                   <br />
-                  As instituições financeiras têm uma série de barreiras e
-                  camadas de proteção – mas é também importante alertar as
-                  pessoas sobre o phishing, afinal, nesse tipo de golpe, os
-                  criminosos contornam a maioria das barreiras, pois possuem as
-                  senhas do usuário.
+                  <span className="text-justify">
+                    As instituições financeiras têm uma série de barreiras e
+                    camadas de proteção – mas é também importante alertar as
+                    pessoas sobre o phishing, afinal, nesse tipo de golpe, os
+                    criminosos contornam a maioria das barreiras, pois possuem as
+                    senhas do usuário.
+                  </span>
                 </p>
               </div>
             </div>
@@ -596,13 +598,13 @@ function App() {
           <div className="mt-44">
             <div className="flex flex-col lg:flex-row items-center justify-between">
               <div className="lg:w-6/12">
-                <h1 className="text-3xl font-semibold text-center lg:text-left">
+                <h1 className="lg:text-3xl text-xl font-semibold text-center lg:text-left">
                   VOCÊ SABIA QUE SEU{" "}
                   <span className="text-projeto-blue">
-                    WI-FI PODE ESTAR VULNERÁVEL?
+                    WI-FI PODE ESTARÁVEL?
                   </span>
                 </h1>
-                <p className="mt-9 p-6 lg:p-0">
+                <p className="mt-9 p-6 pr-10 lg:p-0 text-justify">
                   Atente-se em trocar usuário/senha padrão do seu roteador
                   wireless bem como não compartilhar a senha com outras pessoas,
                   crie senhas complexas, disponibilize QR code para autenticação
@@ -632,7 +634,7 @@ function App() {
             </div>
           </div>
           <div className="mt-36">
-            <div className="bg-projeto-blue rounded-lg lg:pl-14 pt-14 flex justify-center m-5 lg:m-0">
+            <div className="bg-projeto-blue rounded-lg lg:pl-14 pt-14 flex justify-center mr-5 lg:m-0">
               <div>
                 <h1 className="font-medium lg:text-3xl text-xl text-center pl-5">
                   AO NAVEGAR NA WEB PERCEBA QUE:
@@ -657,27 +659,29 @@ function App() {
                   <span className="font-bold">
                     NAVEGUE SEMPRE EM SITE SEGUROS,
                   </span>{" "}
-                  EVITE SALVAR SENHAS, E-MAILS, PERMITIR LOCALIZAÇÃO DENTRE
-                  OUTRAS AÇÕES QUE AO NAVEGAR EM UM SITE POSSA TE SOLICITAR.
+                  <span className="text-justify">
+                    EVITE SALVAR SENHAS, E-MAILS, PERMITIR LOCALIZAÇÃO DENTRE
+                    OUTRAS AÇÕES QUE AO NAVEGAR EM UM SITE POSSA TE SOLICITAR.
+                  </span>
                 </div>
               </div>
             </div>
           </div>
           <div className="mt-44">
-            <h1 className="text-center font-semibold text-2xl">
+            <h1 className="text-center font-semibold lg:text-2xl text-xl">
               COMO SABER SE O SITE É SEGURO?
             </h1>
-            <p className="mt-9 text-center">
+            <p className="mt-9 text-justify p-4 pr-8 lg:pr-0">
               Quando você acessa qualquer site inseguro o próprio navegador faz
               um alerta informando que o site não é seguro, caso esse alerta não
               for informado como saber se o site é seguro ou não?
             </p>
-            <div className="mt-11 border-2 border-projeto-gray rounded-lg m-5 pb-5 lg:m-5 lg:pb-5">
+            <div className="mt-11 border-2 border-projeto-gray rounded-lg mr-5 pb-5 lg:m-5 lg:pb-5">
               <h1 className="text-center mt-10 font-semibold lg:text-xl text-lg">
                 CONFIRA O DOMÍNIO E A URL DO SITE
               </h1>
               <div className="flex flex-col lg:flex-row mt-16 items-center text-center lg:text-left lg:ml-16">
-                <p className="lg:w-2/5 lg:mr-20">
+                <p className="lg:w-2/5 lg:mr-20 text-justify p-4 lg:p-0">
                   Para que as maquinas possam se comunicar, assim como nós, elas
                   precisam de uma linguagem padrão, dessa forma as empresas
                   definiram o HTTP. Mas como as coisas evoluem, existe hoje uma
